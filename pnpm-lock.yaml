@@ -5,9 +5,6 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
-  qwik-lottie:
-    specifier: ^0.1.8
-    version: 0.1.8
   react-fast-marquee:
     specifier: ^1.6.2
     version: 1.6.2(react-dom@18.2.0)(react@18.2.0)
@@ -2583,10 +2580,6 @@ packages:
     dependencies:
       js-tokens: 4.0.0
 
-  /lottie-web@5.12.2:
-    resolution: {integrity: sha512-uvhvYPC8kGPjXT3MyKMrL3JitEAmDMp30lVkuq/590Mw9ok6pWcFCwXJveo0t5uqYw1UREQHofD+jVpdjBv8wg==}
-    dev: false
-
   /lru-cache@6.0.0:
     resolution: {integrity: sha512-Jo6dJ04CmSjuznwJSS3pUeWmd/H0ffTlkXXgwZi+eq1UCmqQwCh+eLsYOYCwY991i2Fah4h1BEMCx4qThGbsiA==}
     engines: {node: '>=10'}
@@ -3421,18 +3414,6 @@ packages:
   /queue-tick@1.0.1:
     resolution: {integrity: sha512-kJt5qhMxoszgU/62PLP1CJytzd2NKetjSRnyuj31fDd3Rlcz3fzlFdFLD1SItunPwyqEOkca6GbV612BWfaBag==}
     dev: true
-
-  /qwik-lottie@0.1.8:
-    resolution: {integrity: sha512-L389lTIYn52r6f/hLR4YtJIY17QmJI3anEnAHrw2mrktvyFkL8Fb+Kq4oWD+p/AILrtH+gXC3e0iayDXMiMtvA==}
-    engines: {node: '>=15.0.0'}
-    dependencies:
-      lottie-web: 5.12.2
-      qwik: 1.0.57
-    dev: false
-
-  /qwik@1.0.57:
-    resolution: {integrity: sha512-ZquaQgRx7MlmdILKZ7ifXcwiHGpuY7Fza+i/moG+8eSgK+/FeqXnu2dMjKCD/3tByhzwy7kh2LZF2s+9MKMUBg==}
-    dev: false
 
   /rc@1.2.8:
     resolution: {integrity: sha512-y3bGgqKj3QBdxLbLkomlohkvsA8gdAiUQlSBJnBhfn+BPxg4bc62d8TcBW15wavDfgexCgccckhcZvywyQYPOw==}

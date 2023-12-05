@@ -2,17 +2,9 @@ import { component$, useStore } from "@builder.io/qwik";
 import Image from "../../images/webdev.png?jsx";
 import Image2 from "../../images/Facebook.png?jsx";
 import Image3 from "../../images/CircledEnvelope.png?jsx";
-import { QwikLottie } from "qwik-lottie";
-import { LottieAnim } from "../LottieAnim";
 import { MarqueeSlider } from "~/integrations/react/MarqueeSlider";
 
 export const HeroSection = component$(() => {
-  const store = useStore({
-    options: {
-      path: "https://lottie.host/1e21b93a-43dc-4bac-abea-766e31c834a7/gZGKAvIabQ.json",
-    },
-  });
-
   return (
     <div class="flex h-screen w-screen flex-col items-center justify-center p-4">
       <div class="h-[50%] w-full">
@@ -46,7 +38,10 @@ export const HeroSection = component$(() => {
             fill="white"
           />
         </svg>
-        <LottieAnim />
+        <iframe
+          class="absolute right-0 top-0 h-1/2 w-1/2"
+          src="https://lottie.host/embed/1e21b93a-43dc-4bac-abea-766e31c834a7/gZGKAvIabQ.json"
+        ></iframe>
       </div>
       <div class="h-[50%] w-full p-4">
         <div class="flex justify-evenly">
