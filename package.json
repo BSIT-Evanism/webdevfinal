@@ -54,6 +54,7 @@
     "vite-tsconfig-paths": "^4.2.1"
   },
   "dependencies": {
+    "framer-motion": "^10.16.14",
     "react-fast-marquee": "^1.6.2"
   }
 }
