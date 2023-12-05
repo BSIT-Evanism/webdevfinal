@@ -1,4 +1,4 @@
-import { component$, useStore } from "@builder.io/qwik";
+import { component$ } from "@builder.io/qwik";
 import Image from "../../images/webdev.png?jsx";
 import Image2 from "../../images/Facebook.png?jsx";
 import Image3 from "../../images/CircledEnvelope.png?jsx";
